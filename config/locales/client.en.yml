@@ -3,6 +3,7 @@ en:
     composer:
       underline_ui_button_title: "Underline text"
       underline_ui_default_text: "Text"
+      strikethrough_ui_button_title: "Cross out the text"
       strikethrough_ui_default_text: "Text"
       color_ui_button_title: "Color text"
       color_ui_default_text: "Text"
