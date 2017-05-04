@@ -21,3 +21,5 @@ ru:
       justify_ui_default_text: "Текст"
       hspoiler_ui_button_title: "Спойлер"
       hspoiler_ui_default_text: "Текст"
+      hcenter_ui_button_title: "Выравнивание заголовков и спойлеров"
+      hcenter_ui_default_text: "Заголовок"
