@@ -50,6 +50,15 @@ function initializePlugin(api)
           perform: e => e.applySurround('[floatl]', '[/floatl]', 'floatl_ui_default_text')
         });
       });
+    
+    api.onToolbarCreate(toolbar => {
+        toolbar.addButton({
+          id: "floatr_ui_button",
+          group: "extras",
+          icon: "outdent",
+          perform: e => e.applySurround('[floatr]', '[/floatr]', 'floatr_ui_default_text')
+        });
+      });
       
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
@@ -77,6 +86,16 @@ function initializePlugin(api)
           perform: e => e.applySurround('[justify]', '[/justify]', 'justify_ui_default_text')
         });
       });
+
+    api.onToolbarCreate(toolbar => {
+        toolbar.addButton({
+          id: "hspoiler_ui_button",
+          group: "extras",
+          icon: "eye-slash",
+          perform: e => e.applySurround('<details>', '</details>', 'hspoiler_ui_default_text')
+        });
+      });
+    
   }
 }
 
