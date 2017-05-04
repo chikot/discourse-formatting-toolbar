@@ -96,6 +96,14 @@ function initializePlugin(api)
         });
       });
     
+    api.onToolbarCreate(toolbar => {
+        toolbar.addButton({
+          id: "hcenter_ui_button",
+          group: "extras",
+          icon: "arrows-h",
+          perform: e => e.applySurround('<div align=center>', '</div>', 'hcenter_ui_default_text')
+        });
+      });
   }
 }
 
