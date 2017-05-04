@@ -1,9 +1,9 @@
 ru:
   js:
     composer:
-      underline_ui_button_title: "Подчёркнутый текст"
+      underline_ui_button_title: "Подчёркнутый"
       underline_ui_default_text: "Текст"
-      strikethrough_ui_button_title: "Зачёркнутый текст"
+      strikethrough_ui_button_title: "Зачёркнутый"
       strikethrough_ui_default_text: "Текст"
       color_ui_button_title: "Цвет текста"
       color_ui_default_text: "Текст"
